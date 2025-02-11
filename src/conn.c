@@ -92,9 +92,9 @@ void scan(const char *node, uint16_t port)
     uint8_t num_ports;
 
     if (port == 0) {
-        uint16_t default_ports[] = {80, 443, 6443};
+        uint16_t default_ports[] = {80, 443};
         memcpy(ports, default_ports, sizeof(default_ports));
-        num_ports = 3;
+        num_ports = 2;
     } else {
         ports[0] = port;
         num_ports = 1;

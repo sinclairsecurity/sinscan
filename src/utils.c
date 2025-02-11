@@ -55,6 +55,6 @@ void usage()
     printf("\n");
     printf("- scan <IP> <port>\n");
     printf("\tattempts TCP connection to the IP\n");
-    printf("\tNOTE: If no port is passed, defaults to 80, 443, and 6443\n");
+    printf("\tNOTE: If no port is passed, defaults to 80 and 443\n");
     printf("\n");
 }
